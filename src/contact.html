@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>企業サイトサンプル</title>
+        <link href="./assets/css/output.css" rel="stylesheet">
+        <link href="./assets/css/fontawesome.css" rel="stylesheet">
+        <script src="./assets/js/fontawesome.js"></script>
+    </head>
+    <body>
+        <div class="font-sans bg-gray-100">
+            <!-- ヘッダー -->
+            <header class="bg-white shadow-md">
+                <div
+                    class="container mx-auto flex justify-between items-center p-4">
+                    <h1 class="text-xl font-bold"><a href="./index.html">企業名</a></h1>
+                    <nav>
+                        <ul class="flex space-x-4">
+                            <li><a href="./company.html"
+                                    class="hover:text-blue-500">会社概要</a></li>
+                            <li><a href="./faq.html"
+                                    class="hover:text-blue-500">よくあるご質問</a></li>
+                            <li><a href="./news.html"
+                                    class="hover:text-blue-500">お知らせ</a></li>
+                            <li><a href="./contact.html"
+                                    class="hover:text-blue-500">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="flex items-center border rounded p-2 ml-4">
+                        <input type="text" placeholder="サイト内検索"
+                            class="p-2 outline-none">
+                        <button
+                            class="bg-blue-500 text-white px-4 py-2 rounded ml-2">検索</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- パンくずリスト -->
+            <nav class="container mx-auto p-4 text-gray-600 text-sm">
+                <a href="index.html" class="hover:underline">ホーム</a> > <span
+                    class="text-gray-500">お問い合わせ</span>
+            </nav>
+
+            <!-- お問い合わせフォーム -->
+            <section class="container mx-auto py-16 max-w-2xl">
+                <h2 class="text-3xl font-bold text-center mb-8">お問い合わせ</h2>
+                <div class="bg-white p-6 shadow-md rounded-lg prose">
+                    <div
+                        class="bg-red-100 border border-red-400 text-red-700 rounded mb-4 py-2 px-4 not-prose">
+                        <ul>
+                            <li>必須項目をすべて入力してください。</li>
+                        </ul>
+                    </div>
+                    <form action="#" method="post" class="not-prose">
+                        <div class="mb-4">
+                            <label for="name"
+                                class="block text-gray-700 font-medium mb-2">お名前
+                                <span class="text-red-500">*</span></label>
+                            <input type="text" id="name" name="name"
+                                class="w-full p-2 border rounded" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email"
+                                class="block text-gray-700 font-medium mb-2">メールアドレス
+                                <span class="text-red-500">*</span></label>
+                            <input type="email" id="email" name="email"
+                                class="w-full p-2 border rounded" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message"
+                                class="block text-gray-700 font-medium mb-2">お問い合わせ内容
+                                <span class="text-red-500">*</span></label>
+                            <textarea id="message" name="message" rows="5"
+                                class="w-full p-2 border rounded"
+                                required></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <label
+                                class="block text-gray-700 font-medium mb-2">ニュースレターの購読（任意）</label>
+                            <input type="checkbox" id="newsletter"
+                                name="newsletter" class="mr-2">
+                            <label for="newsletter"
+                                class="text-gray-700">購読する</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit"
+                                class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 cursor-pointer">送信</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- フッター -->
+            <footer class="bg-gray-800 text-white text-center py-6">
+                <p>&copy; 2025 企業名. All rights reserved.</p>
+            </footer>
+        </div>
+
+    </body>
+</html>

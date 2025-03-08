@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>企業サイトサンプル</title>
+        <link href="./assets/css/output.css" rel="stylesheet">
+        <link href="./assets/css/fontawesome.css" rel="stylesheet">
+        <script src="./assets/js/fontawesome.js"></script>
+    </head>
+    <body>
+        <div class="font-sans bg-gray-100">
+            <!-- ヘッダー -->
+            <header class="bg-white shadow-md">
+                <div
+                    class="container mx-auto flex justify-between items-center p-4">
+                    <h1 class="text-xl font-bold"><a href="./index.html">企業名</a></h1>
+                    <nav>
+                        <ul class="flex space-x-4">
+                            <li><a href="./company.html"
+                                    class="hover:text-blue-500">会社概要</a></li>
+                            <li><a href="./faq.html"
+                                    class="hover:text-blue-500">よくあるご質問</a></li>
+                            <li><a href="./news.html"
+                                    class="hover:text-blue-500">お知らせ</a></li>
+                            <li><a href="./contact.html"
+                                    class="hover:text-blue-500">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="flex items-center border rounded p-2 ml-4">
+                        <input type="text" placeholder="サイト内検索"
+                            class="p-2 outline-none">
+                        <button
+                            class="bg-blue-500 text-white px-4 py-2 rounded ml-2">検索</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- メインビジュアル -->
+            <section
+                class="bg-blue-500 text-white text-center py-20 bg-cover bg-center"
+                style="background-image: url('./assets/img/sample-space-medium.jpg');">
+                <h2 class="text-4xl font-bold">私たちは未来を創る企業です</h2>
+                <p class="mt-4">お客様と共に成長し、社会に貢献します</p>
+                <a href="#about"
+                    class="mt-6 inline-block bg-white text-blue-500 px-6 py-2 rounded-full font-semibold">会社概要を見る</a>
+            </section>
+
+            <!-- 事業内容 -->
+            <section id="services" class="container mx-auto py-16">
+                <h2 class="text-3xl font-bold text-center mb-8">事業内容</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-6 shadow-md rounded-lg">
+                        <i class="fas fa-wrench text-blue-500 text-3xl"></i>
+                        <h3 class="text-xl font-semibold mt-2">サービスA</h3>
+                        <p class="mt-2">サービスAの説明が入ります。</p>
+                    </div>
+                    <div class="bg-white p-6 shadow-md rounded-lg">
+                        <i class="fas fa-wrench text-blue-500 text-3xl"></i>
+                        <h3 class="text-xl font-semibold mt-2">サービスB</h3>
+                        <p class="mt-2">サービスBの説明が入ります。</p>
+                    </div>
+                    <div class="bg-white p-6 shadow-md rounded-lg">
+                        <i class="fas fa-wrench text-blue-500 text-3xl"></i>
+                        <h3 class="text-xl font-semibold mt-2">サービスC</h3>
+                        <p class="mt-2">サービスCの説明が入ります。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 最新のお知らせ -->
+            <section id="news" class="bg-gray-200 py-16">
+                <div class="container mx-auto">
+                    <h2 class="text-3xl font-bold text-center mb-8">最新のお知らせ</h2>
+                    <ul class="space-y-4">
+                        <li
+                            class="bg-white p-4 shadow-md rounded-lg flex items-center">
+                            <img src="./assets/img/sample-thumbnail.jpg"
+                                alt="お知らせのタイトル"
+                                class="rounded mr-4 object-cover" width="240"
+                                height="133">
+                            <div class="flex flex-col">
+                                <span
+                                    class="text-sm text-gray-500">2025/02/23</span>
+                                <a href="./news_detail.html"
+                                    class="text-blue-500 hover:underline">お知らせのタイトルお知らせのタイトル</a>
+                                <span
+                                    class="mt-2 text-sm">お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。</span>
+                            </div>
+                        </li>
+                        <li
+                            class="bg-white p-4 shadow-md rounded-lg flex items-center">
+                            <img src="./assets/img/sample-thumbnail.jpg"
+                                alt="お知らせのタイトル"
+                                class="rounded mr-4 object-cover" width="240"
+                                height="133">
+                            <div class="flex flex-col">
+                                <span
+                                    class="text-sm text-gray-500">2025/02/23</span>
+                                <a href="./news_detail.html"
+                                    class="text-blue-500 hover:underline">お知らせのタイトルお知らせのタイトル</a>
+                                <span
+                                    class="mt-2 text-sm">お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。</span>
+                            </div>
+                        </li>
+                        <li
+                            class="bg-white p-4 shadow-md rounded-lg flex items-center">
+                            <img src="./assets/img/sample-thumbnail.jpg"
+                                alt="お知らせのタイトル"
+                                class="rounded mr-4 object-cover" width="240"
+                                height="133">
+                            <div class="flex flex-col">
+                                <span
+                                    class="text-sm text-gray-500">2025/02/23</span>
+                                <a href="./news_detail.html"
+                                    class="text-blue-500 hover:underline">お知らせのタイトルお知らせのタイトル</a>
+                                <span
+                                    class="mt-2 text-sm">お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- フッター -->
+            <footer class="bg-gray-800 text-white text-center py-6">
+                <p>&copy; 2025 企業名. All rights reserved.</p>
+            </footer>
+        </div>
+
+    </body>
+</html>

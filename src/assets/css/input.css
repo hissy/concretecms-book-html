@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+.prose td, .prose th {
+    @apply p-4;
+}
